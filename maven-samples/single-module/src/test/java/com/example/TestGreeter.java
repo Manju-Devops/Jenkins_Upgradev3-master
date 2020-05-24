@@ -33,7 +33,7 @@ public class TestGreeter {
 
     @Test
   public void greetShouldIncludeGreetingMessage() {
-    String someone = "World, Thanks you for DEVOPS tra";
+    String someone = " This is Archive artifacts";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
